@@ -1,7 +1,7 @@
 {
     "name": "janaina/digital_cep",
-    "description": "Buscar de Cep online",
-    "type":"library",
+    "description": "Busaca de cep online",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -11,5 +11,13 @@
     ],
     "require": {
         "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Janaina\\Digital_cep\\": "src/"
+        }
     }
 }
